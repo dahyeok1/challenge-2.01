@@ -29,7 +29,7 @@ img {
 }
 
 .image3{ 
-    animation: textAnimation 2s infinite;
+    animation: textAnimation 4s infinite;
 }
 
 .flex-container{
@@ -72,13 +72,13 @@ img {
 @keyframes textAnimation{
     /* stage - properties - values */
     0%{
-        background-color: rgb(170, 242, 63);
+       color: rgb(170, 242, 63);
     }
     50%{
-        background-color: purple;
+        color: purple;
     }
     100% {
-        background-color: red;
+        color: red;
     }
 }
 
