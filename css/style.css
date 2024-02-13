@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+h1{
+    color: beige;
+}
+
+
+img {
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.roses1{
+    animation: borderAnimation 5s infinite;
+}
+
+/* BELOW IS WHAT U NEED TO SHRINK AND EXPAND IMG */
+.roses2{
+    animation: imgSize 5s infinite; 
+}
+
+.image3{ 
+    animation: textAnimation 2s infinite;
+}
+
+.flex-container{
+    display: flex;
+    width: 100vw;
+    height: 50px;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(163, 162, 162);
+    top: 15px;
+    border: 3px solid black;
+    border-radius: 10px 10px 10px 10px;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+/* DEFINE THE ANIMATION */
+@keyframes borderAnimation{
+    /* stage - properties - values */
+    0%{
+        background-color: rgb(170, 242, 63);
+    }
+    50%{
+        background-color: purple;
+    }
+    100% {
+        background-color: red;
+    }
+}
+
+@keyframes textAnimation{
+    /* stage - properties - values */
+    0%{
+        background-color: rgb(170, 242, 63);
+    }
+    50%{
+        background-color: purple;
+    }
+    100% {
+        background-color: red;
+    }
+}
+
+@keyframes imgSize{
+    0%{
+        width: 100px;
+        height: 100px;
+    }
+    50%{
+        width: 200px;
+        height: 180px;
+    }
+    100%{
+        width: 100px;
+        height: 100px;
+    }
+}
