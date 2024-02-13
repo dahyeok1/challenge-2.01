@@ -21,6 +21,7 @@ img {
 
 .roses1{
     animation: borderAnimation 5s infinite;
+    padding-bottom: 10px;
 }
 
 /* BELOW IS WHAT U NEED TO SHRINK AND EXPAND IMG */
